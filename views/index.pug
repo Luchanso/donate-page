@@ -1,0 +1,78 @@
+doctype html
+html
+  head
+    link(href='http://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(type='text/css', rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css')
+    link(type='text/css', rel='stylesheet', href='css/app.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    .container
+      .row
+        .col.s12
+          h1.head-title Luchanso Donate
+          p Monthly progress
+          .progress.indigo.lighten-4
+            .determinate.indigo.darken-4(style='width: 0.5%')
+          p $0 / $200
+        .col.s12(align="center")
+          a.waves-effect.indigo.btn-large.waves-light.btn(href='https://twitch.streamlabs.com/luchanso')
+            i.material-icons.right favorite
+            | Donate
+      .row
+        .col.s2
+          p(align="center")
+            b You will get
+          .card.indigo
+            .card-content.white-text
+              span.card-title Above $1
+              p Your nickname will add to list of top donaters
+          .card.indigo
+            .card-content.white-text
+              span.card-title Above $3
+              p You can poll what game I will make on next stream
+          .card.indigo
+            .card-content.white-text
+              span.card-title Above $5
+              p One my free game without ADS
+          .card.indigo
+            .card-content.white-text
+              span.card-title Above $10
+              p Answer on your questions in skype or messenger anytime
+          .card.indigo
+            .card-content.white-text
+              span.card-title $25 - $100
+              p I'll give personal lesson about Game Dev for you
+
+        .col.s7
+          p(align="center")
+            b Goals
+          .row
+            .col.s6
+              .card.indigo
+                .card-content.white-text
+                  span.card-title $200
+                  p I'll start streams five times in week
+              .card.indigo
+                .card-content.white-text
+                  span.card-title $800
+                  p More 4 hour GameDev video tutorial - from Zero to Professional
+              .card.indigo.lighten-2
+                .card-content.white-text
+                  span.card-title Much more
+                  p I Don't know - I'll come up something :D
+            .col.s6
+              .card.indigo
+                .card-content.white-text
+                  span.card-title $400
+                  p GameDev video tutorials for begginers
+              .card.indigo
+                .card-content.white-text
+                  span.card-title $1000
+                  p My next game will be free and without ADS
+        .col.s3
+          p(align="center")
+            b Top donators
+          ul.collection
+            li.collection-item You will first
+    script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js')

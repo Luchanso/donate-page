@@ -1,0 +1,22 @@
+{
+  "name": "donate-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "donate-page",
+    "landing",
+    "donate"
+  ],
+  "author": "Loutchansky Oleg",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-watch": "^4.3.10"
+  }
+}
